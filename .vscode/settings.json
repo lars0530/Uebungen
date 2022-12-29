@@ -1,0 +1,9 @@
+{
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "javax_jar_files/activation-1.1.jar",
+        "javax_jar_files/javaee-api-8.0.1.jar",
+        "javax_jar_files/javax.mail-1.6.2.jar"
+    ]
+}
