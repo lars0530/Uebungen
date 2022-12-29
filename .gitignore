@@ -6,3 +6,4 @@
 *.xopp
 *.txt
 *.docx
+/tests
