@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><pnml xmlns = "http://www.irt.rwth-aachen.de/download/netlab/pntd/pnsmNet">
+  <net id = "n1"
+       type = "http://www.irt.rwth-aachen.de/download/netlab/pntd/pnsmNet">
+    <name>
+      <text>Aufgabe10_Lars</text>
+    </name>
+    <place id = "p1">
+      <graphics>
+        <position x = "460"
+                  y = "220"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>3</text>
+      </capacity>
+      <name>
+        <text>Backmischung da</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-48"/>
+        </graphics>
+      </name>
+    </place>
+    <place id = "p2">
+      <graphics>
+        <position x = "660"
+                  y = "280"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>3</text>
+      </capacity>
+      <name>
+        <text>Teig kneten</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-48"/>
+        </graphics>
+      </name>
+    </place>
+    <place id = "p3">
+      <graphics>
+        <position x = "860"
+                  y = "280"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>3</text>
+      </capacity>
+      <name>
+        <text>Teig in K&#252;hlschrank legen</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-48"/>
+        </graphics>
+      </name>
+    </place>
+    <place id = "p4">
+      <graphics>
+        <position x = "1060"
+                  y = "280"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>3</text>
+      </capacity>
+      <name>
+        <text>Teig bereit</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-48"/>
+        </graphics>
+      </name>
+    </place>
+    <place id = "p5">
+      <graphics>
+        <position x = "1260"
+                  y = "280"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>3</text>
+      </capacity>
+      <name>
+        <text>Teig auf Tisch</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-48"/>
+        </graphics>
+      </name>
+    </place>
+    <place id = "p6">
+      <graphics>
+        <position x = "1460"
+                  y = "280"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>3</text>
+      </capacity>
+      <name>
+        <text>Pl&#228;tzchen fertig</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-48"/>
+        </graphics>
+      </name>
+    </place>
+    <place id = "p7">
+      <graphics>
+        <position x = "260"
+                  y = "420"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>1</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+      <name>
+        <text>Fl&#246;ckchenmaschine frei</text>
+        <graphics>
+          <offset x = "0"
+                  y = "32"/>
+        </graphics>
+      </name>
+    </place>
+    <place id = "p8">
+      <graphics>
+        <position x = "460"
+                  y = "360"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>3</text>
+      </capacity>
+      <name>
+        <text>Butterfl&#246;ckchen da</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-48"/>
+        </graphics>
+      </name>
+    </place>
+    <place id = "p9">
+      <graphics>
+        <position x = "1660"
+                  y = "280"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>2</text>
+      </capacity>
+      <name>
+        <text>Pl&#228;tzchen backen Ofen (10min)</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-48"/>
+        </graphics>
+      </name>
+    </place>
+    <place id = "p10">
+      <graphics>
+        <position x = "1860"
+                  y = "280"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>2</text>
+      </capacity>
+      <name>
+        <text>Pl&#228;tzchen aus Ofen nehmen</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-48"/>
+        </graphics>
+      </name>
+    </place>
+    <place id = "p11">
+      <graphics>
+        <position x = "260"
+                  y = "360"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+      <name>
+        <text>Butterfl&#246;ckchen erzeugen</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-48"/>
+        </graphics>
+      </name>
+    </place>
+    <place id = "p12">
+      <graphics>
+        <position x = "1240"
+                  y = "420"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>3</text>
+      </initialMarking>
+      <capacity>
+        <text>3</text>
+      </capacity>
+      <name>
+        <text>B&#228;cker frei</text>
+        <graphics>
+          <offset x = "20"
+                  y = "-48"/>
+        </graphics>
+      </name>
+    </place>
+    <transition id = "t1">
+      <graphics>
+        <position x = "360"
+                  y = "220"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <name>
+        <text>Backmischung trifft ein</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </transition>
+    <transition id = "t2">
+      <graphics>
+        <position x = "560"
+                  y = "280"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <name>
+        <text>Zutaten mischen</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </transition>
+    <transition id = "t3">
+      <graphics>
+        <position x = "760"
+                  y = "280"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <name>
+        <text>Teig fertig</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </transition>
+    <transition id = "t4">
+      <graphics>
+        <position x = "960"
+                  y = "280"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <name>
+        <text>Teig im K&#252;hlschrank (1h)</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </transition>
+    <transition id = "t5">
+      <graphics>
+        <position x = "1160"
+                  y = "280"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <name>
+        <text>Teig auf Tisch legen</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </transition>
+    <transition id = "t6">
+      <graphics>
+        <position x = "1360"
+                  y = "280"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <name>
+        <text>Pl&#228;tzchen ausstechen</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </transition>
+    <transition id = "t7">
+      <graphics>
+        <position x = "1560"
+                  y = "280"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <name>
+        <text>Pl&#228;tzchen in Ofen schieben</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </transition>
+    <transition id = "t8">
+      <graphics>
+        <position x = "1760"
+                  y = "280"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <name>
+        <text>Pl&#228;tzchen gebacken</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </transition>
+    <transition id = "t9">
+      <graphics>
+        <position x = "160"
+                  y = "360"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <name>
+        <text>Butter in Maschine</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </transition>
+    <transition id = "t10">
+      <graphics>
+        <position x = "360"
+                  y = "360"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <name>
+        <text>Butterfl&#246;ckchen fertig</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </transition>
+    <transition id = "t11">
+      <graphics>
+        <position x = "1960"
+                  y = "280"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <name>
+        <text>Pl&#228;tzchen fertig</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </transition>
+    <arc id = "a1"
+         source = "p1"
+         target = "t2"/>
+    <arc id = "a2"
+         source = "p2"
+         target = "t3"/>
+    <arc id = "a3"
+         source = "t2"
+         target = "p2"/>
+    <arc id = "a4"
+         source = "t3"
+         target = "p3"/>
+    <arc id = "a5"
+         source = "p3"
+         target = "t4"/>
+    <arc id = "a6"
+         source = "t4"
+         target = "p4"/>
+    <arc id = "a7"
+         source = "t1"
+         target = "p1"/>
+    <arc id = "a8"
+         source = "t10"
+         target = "p8"/>
+    <arc id = "a9"
+         source = "p8"
+         target = "t2"/>
+    <arc id = "a10"
+         source = "p4"
+         target = "t5"/>
+    <arc id = "a11"
+         source = "p5"
+         target = "t6"/>
+    <arc id = "a12"
+         source = "t5"
+         target = "p5"/>
+    <arc id = "a13"
+         source = "t6"
+         target = "p6"/>
+    <arc id = "a14"
+         source = "p6"
+         target = "t7"/>
+    <arc id = "a15"
+         source = "t7"
+         target = "p9"/>
+    <arc id = "a16"
+         source = "p9"
+         target = "t8"/>
+    <arc id = "a17"
+         source = "p10"
+         target = "t11"/>
+    <arc id = "a18"
+         source = "t8"
+         target = "p10"/>
+    <arc id = "a19"
+         source = "t9"
+         target = "p11"/>
+    <arc id = "a20"
+         source = "p11"
+         target = "t10"/>
+    <arc id = "a21"
+         source = "p12"
+         target = "t2"/>
+    <arc id = "a22"
+         source = "t4"
+         target = "p12"/>
+    <arc id = "a23"
+         source = "p12"
+         target = "t5"/>
+    <arc id = "a24"
+         source = "t7"
+         target = "p12"/>
+    <arc id = "a25"
+         source = "p12"
+         target = "t8"/>
+    <arc id = "a26"
+         source = "t11"
+         target = "p12"/>
+    <arc id = "a27"
+         source = "t10"
+         target = "p7"/>
+    <arc id = "a28"
+         source = "p7"
+         target = "t9"/>
+    <toolspecific tool = "netlab"
+                  version = "1.8">
+      <developer_release version = "1,8,0,0"
+                         build = "3381"
+                         svn_revision = "419"
+                         year = "2007"
+                         month = "06"
+                         day = "22"/>
+      <comments>
+        <comment id = "c1">
+          <graphics>
+            <position x = "680"
+                      y = "460"/>
+          </graphics>
+          <text>Annahme: Alle Stellen k&#246;nnen 3 Portionen
+aufnehmen, da alle 3 B&#228;cker synchron
+arbeiten k&#246;nnen.
+
+Lediglich der Ofen ist auf 2 Portionen beschr&#228;nkt
+
+Alle Kanten transportieren 1 bis 3 Marken, da der Fluss
+lediglich durch die Verf&#252;gbarkeit der B&#228;cker 
+beeinflusst wird.</text>
+        </comment>
+      </comments>
+      <view xmlns = "http://www.irt.rwth-aachen.de/download/netlab"
+            zoom = "75"
+            grid = "true"
+            numbering = "true"
+            names = "false"
+            description = "true"
+            colored_invariants = "true">
+        <scrollerposition x = "343"
+                          y = "0"/>
+      </view>
+      <calculation xmlns = "http://www.irt.rwth-aachen.de/download/netlab"
+                   autocalculate_invariants = "false"
+                   firing_rule = "strong"/>
+      <petrinetstatemodel self_loops = "true"
+                          io_extensions = "true"
+                          test_arcs = "allowed_at_all_nodes"
+                          inhibitor_arcs = "allowed_at_input_nodes"/>
+    </toolspecific>
+  </net>
+</pnml>
