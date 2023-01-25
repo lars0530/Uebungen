@@ -39,7 +39,7 @@ public class scalarTester {
     @Test
     public void actualTest(){
         int[] testVector1 = {1,2,3};
-        int[] testVector2 = {1,2,3};
+        int[] testVector2 = {-1,-2,3};
 
         int expextedOutput = 14;
 
